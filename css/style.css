@@ -1,0 +1,22 @@
+[class*='col'],
+.col {
+  min-height: 40px;
+  background-color: #006cfa;
+  border: 1px solid white;
+  text-align: center;
+  line-height: 40px;
+  color: white;
+}
+
+[class*='col'] [class*='col'] {
+  background-color: #00e165;
+  border-color: #006cfa;
+}
+
+.row-padding {
+  padding: 2%;
+}
+
+section {
+  padding: 10px 0px;
+}
