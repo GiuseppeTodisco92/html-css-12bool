@@ -8,12 +8,24 @@
   color: white;
 } */
 
+/*-------------
+    TYPO
+----------------*/
 .header-text-align-left {
   text-align: left;
 }
 .header-text-align-right {
   text-align: right;
 }
+.padding-row {
+  padding: 5px 0px;
+}
+
+/*-------------
+    HEADER
+----------------*/
+
+/* header top  */
 
 .logo {
   width: 40%;
@@ -22,9 +34,6 @@
 header {
   background-color: #f3f3f3;
   padding: 10px 20px;
-}
-
-.ita-flag {
 }
 
 .flag {
@@ -39,4 +48,26 @@ span {
   color: black;
   padding-left: 10px;
   vertical-align: middle;
+}
+
+/* header bottom  */
+
+.search-box {
+  background-color: white;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+.search {
+  display: inline-block;
+  width: 90%;
+  border: none;
+  text-align: center;
+  background-color: transparent;
+}
+
+.list-burger i {
+  font-size: 24px;
+  text-align: right;
+  padding-left: 10px;
 }
