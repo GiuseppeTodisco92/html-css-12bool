@@ -1,0 +1,42 @@
+/* [class*='col'],
+.col {
+  min-height: 40px;
+  background-color: #006cfa;
+  border: 1px solid white;
+  text-align: center;
+  line-height: 40px;
+  color: white;
+} */
+
+.header-text-align-left {
+  text-align: left;
+}
+.header-text-align-right {
+  text-align: right;
+}
+
+.logo {
+  width: 40%;
+}
+
+header {
+  background-color: #f3f3f3;
+  padding: 10px 20px;
+}
+
+.ita-flag {
+}
+
+.flag {
+  width: 15px;
+  object-fit: contain;
+  border-radius: 90%;
+  border: 1px solid black;
+}
+
+.header-text-align-right a,
+span {
+  color: black;
+  padding-left: 10px;
+  vertical-align: middle;
+}

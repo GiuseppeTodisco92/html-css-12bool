@@ -147,6 +147,15 @@
 /* da 0px a 575px dipositivi extra small - xs */
 
 @media screen and (min-width: 576px) {
+  /*----------------
+      reset
+------------------*/
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
   .col-xs-1 {
     flex-basis: calc((100% / 12) * 1);
     max-width: calc((100% / 12) * 1);
@@ -208,8 +217,8 @@
   }
 
   /*----------------
-
-      ------------------*/
+            offset
+ ------------------*/
 
   .col-offset-xs-1 {
     margin-left: calc((100% / 12) * 1);
@@ -259,6 +268,15 @@
 /* da 576px a 767px dipositivi small - sm */
 
 @media screen and (min-width: 767px) {
+  /*----------------
+      reset
+------------------*/
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
   .col-sm-1 {
     flex-basis: calc((100% / 12) * 1);
     max-width: calc((100% / 12) * 1);
@@ -371,6 +389,15 @@
 /* da 768px a 991px dipositivi medium - md */
 
 @media screen and (min-width: 991px) {
+  /*----------------
+      reset
+------------------*/
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
   .col-md-1 {
     flex-basis: calc((100% / 12) * 1);
     max-width: calc((100% / 12) * 1);
